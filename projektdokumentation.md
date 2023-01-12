@@ -64,8 +64,20 @@
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Administrator legt Benutzername und Passwort an | Administrator gibt Benutzername und Passwort ein | Administrator wird erfolgreich authentifiziert und erhält Zugang zu den Administrationsfunktionen |
+| 2.1  | Administrator ist authentifiziert | Administrator legt neue Phrase oder Rätselwort an oder ändert bestehendes | Neue Phrase oder Rätselwort wird erfolgreich angelegt oder bestehendes wurde erfolgreich geändert |
+| 3.1  | Administrator hat bereits Kategorien angelegt und Phrasen und Rätselwörter hinzugefügt | Administrator ordnet Phrasen und Rätselwörter bestimmten Kategorien zu | Phrasen und Rätselwörter werden erfolgreich den entsprechenden Kategorien zugeordnet |
+| 4.1  | Einträge in der Highscore-Liste sind vorhanden | Administrator wählt Eintrag aus und löscht ihn | Der ausgewählte Eintrag wird erfolgreich gelöscht |
+| 5.1  | Spieler hat das Spiel gestartet | Spieler gibt seinen Namen ein | Name wird in der Highscore-Liste angezeigt |
+| 6.1  | Spieler hat das Spiel gestartet | Spieler navigiert zur Anzeige des Kontostands und der Lebenspunkte | Aktueller Kontostand und Lebenspunkte werden angezeigt |
+| 7.1  | Spieler hat eine Frage beantwortet | Spieler gibt Antwort ein | Benachrichtigung, ob die Antwort richtig oder falsch war |
+| 8.1  | Es gibt Einträge in der Highscore-Liste | Spieler navigiert zur Highscore-Liste | Highscore-Liste wird angezeigt, sortiert nach Rang und enthält Rang, Name, Zeitpunkt des Spiels, Ge |
+| 9.1  | Spieler hat bereits einige Rätsel gelöst | Spieler beginnt eine neue Runde | Kein Rätsel-Wort oder keine Phrase wurde dem Spieler bereits gestellt |
+| 10.1 | Spieler hat einen Gewinn erzielt | Spieler wählt die Option, das Spiel zu verlassen und den Gewinn in die Highscore-Liste zu übernehmen | Spiel wird beendet und der Gewinn wird in der Highscore-Liste angezeigt |
+| 11.1 | Anwendung ist bereit zum Spielen | Spieler beginnt eine neue Runde | Es stehen genügend Rätsel zur Verfügung |
+| 12.1 | Spieler hat mehrere Runden gespielt | Spieler navigiert zur Anzeige der Anzahl der gespielten Runden | Anzahl der gespielten Runden wird angezeigt. |
+
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
