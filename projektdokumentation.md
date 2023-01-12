@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+✍️ Frühwirth
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -20,14 +20,17 @@
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
-* Tier 2 (Webserver):
-* Tier 3 (Application Server):
-* Tier 4 (Dataserver):
+* Tier 1 (Presentation): Die Benutzeroberfläche, die dem Spieler das Rätsel, das Glücksrad, den Kontostand, die verbleibenden Leben und die Highscore-Liste anzeigt.
+* Tier 2 (Webserver): Die Schicht, die die Anforderungen des Benutzers empfängt und an die nächste Schicht weiterleitet.
+* Tier 3 (Application Server): Die Schicht, die die Business-Logik und die Verarbeitung der Anwendungsdaten enthält.
+* Tier 4 (Dataserver): Die Schicht, die die Datenbanken enthält, in denen die Daten der Anwendung gespeichert und abgefragt werden.
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+* Tier 1 (Presentation): Asp.net
+* Tier 2 (Webserver): 
+* Tier 3 (Application Server): Asp.net
+* Tier 4 (Dataserver): MySQL
 
 # 3 Datenbank
 
@@ -41,7 +44,7 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |                 |      | Als Administrator möchte ich mich durch Benutzername und Passwort authentifizieren können, damit ich Zugang zu den Administrationsfunktionen habe. |
 | ...  |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
