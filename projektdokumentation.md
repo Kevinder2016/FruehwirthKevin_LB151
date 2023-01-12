@@ -31,7 +31,8 @@ Asp.net und MySQL
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+Verwendung der ADO.NET-Bibliothek, die in ASP.NET enthalten ist, um direkt mit der Datenbank zu interagieren und SQL-Abfragen auszuführen.
+
 
 # 4.1 User Stories
 
