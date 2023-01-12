@@ -45,7 +45,16 @@
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |                 |      | Als Administrator möchte ich mich durch Benutzername und Passwort authentifizieren können, damit ich Zugang zu den Administrationsfunktionen habe. |
-| ...  |                 |      |                                    |
+| ...  |                 |      | Als Administrator möchte ich Phrasen und Rätselwörter anlegen, ändern und löschen können, damit ich das Angebot der Anwendung aktualisieren kann. |
+| 1.1  |              |         |                   |
+| ...  |              |         |                   |
+| 1.1  |              |         |                   |
+| ...  |              |         |                   |
+| 1.1  |              |         |                   |
+| ...  |              |         |                   |
+| 1.1  |              |         |                   |
+| ...  |              |         |                   |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
