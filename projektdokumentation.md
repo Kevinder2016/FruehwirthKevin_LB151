@@ -82,6 +82,8 @@ Asp.net und MySQL
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
 
+![image](https://user-images.githubusercontent.com/69578309/212023631-94995cf7-9e67-44a2-963b-61739a1ba10f.png)
+
 # 6 Implementation
 
 ✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
