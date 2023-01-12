@@ -27,10 +27,7 @@
 
 # 2 Technologie
 
-* Tier 1 (Presentation): Asp.net
-* Tier 2 (Webserver): 
-* Tier 3 (Application Server): Asp.net
-* Tier 4 (Dataserver): MySQL
+Asp.net und MySQL
 
 # 3 Datenbank
 
