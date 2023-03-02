@@ -18,10 +18,8 @@
 
 # 1 Analyse
 
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
-
-* Tier 1 (Presentation): Die Benutzeroberfläche, die dem Spieler das Rätsel, das Glücksrad, den Kontostand, die verbleibenden Leben und die Highscore-Liste anzeigt.
-* Tier 2 (Webserver): Die Schicht, die die Anforderungen des Benutzers empfängt und an die nächste Schicht weiterleitet.
+* Tier 1 (Presentation): Die Benutzeroberfläche, die das Rätselwort mit der passenden Kategorie, den Kontostand, die verbleibenden Leben, die Highscore-Liste, die Login Seite für den Administrator und die Seite für die Verwaltung von Wörtern anzeigt.
+* Tier 2 (Webserver): empfängt die Anforderungen des Benutzers und leitet sie weiter an tiefere Schichten.
 * Tier 3 (Application Server): beinhaltet die Logik der Anwendung. Ist für das auslesen und schreiben in die Datenbank verantwortlich und überprüft Eingaben serverseitig.
 * Tier 4 (Dataserver): Speichert die Daten des Nutzers für die Highscore-liste(name, coins...), die Login-Daten für den Administrator und weiter Daten die für das Spiel gebraucht werden (z:B: die Wörter)
 
