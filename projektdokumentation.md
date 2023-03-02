@@ -114,14 +114,14 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 | 3 | nein | AdminPhraseBean.java, AdminPhrase.java, phrase.xhtml |
 | 4 | ja | adminHome.xhtml, AdminBean.java, Phrase.java |
 | 5 | ja | index.xhtml, GameBean.java |
-| 6 | ja |                                           |
-| 7 | ja |                                           |
-| 8 | ja |                                           |
-| 9 | ja |                                           |
-| 10 | ja |                                           |
-| 11 | ja |                                           |
-| 12 | ja |                                           |
-| 13 | ja |                                           |
+| 6 | ja | index.xhtml, GameBean.java |
+| 7 | ja | index.xhtml, GameBean.java |
+| 8 | ja | index.xhtml, GameBean.java |
+| 9 | ja | adminHome.xhtml, AdminBean.java, Phrase.java |
+| 10 | ja | index.xhtml, GameBean.java |
+| 11 | ja | index.xhtml, GameBean.java |
+| 12 | ja | index.xhtml, GameBean.java |
+| 13 | ja | index.xhtml, GameBean.java |
 
 # 8 Testprotokoll
 
