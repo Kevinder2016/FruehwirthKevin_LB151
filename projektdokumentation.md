@@ -53,7 +53,7 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 | 8  | Muss | Funktional | Als Spieler möchte ich erfahren, ob meine Antwort richtig oder falsch war, damit ich weiß, ob ich dem Rätsel näher komme. |
 | 9  | Muss | Funktional | Als Spieler möchte ich in der Highscore-Liste Rang, Name, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden sehen können, damit ich die Leistungen anderer Spieler vergleichen und meine eigene Leistung nachverfolgen kann. |
 | 10 | Muss | Funktional | Als Spieler möchte ich kein Rätsel-Wort oder keine Phrase mehr als einmal gestellt bekommen, damit das Spiel interessant bleibt. |
-| 11 | Muss | Funktional | Als Spieler möchte ich jederzeit das Spiel verlassen und meinen Gewinn in die Highscore-Liste übernehmen können, damit ich meine Leistungen nicht verliere, wenn ich das Spiel verlassen muss. |
+| 11 | Muss | Funktional | Als Spieler möchte ich jederzeit das Spiel verlassen und meinen Gewinn in die Highscore-Liste übernehmen können, damit ich meine Leistungen sehen und mit anderen Vergleichen kann. |
 | 12 | Muss | Funktional | Als Spieler möchte ich eine spielbare Anzahl an Wörtern und Fragen haben, damit das Spiel genug Abwechslung bietet. |
 | 13 | Muss | Funktional | Als Spieler möchte ich die Anzahl der Spielrunden gezählt sehen, damit ich weiß wie oft ich das Spiel gespielt habe. |
 
@@ -68,7 +68,8 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 | 3.1  | Administrator hat bereits Kategorien angelegt und Phrasen und Rätselwörter hinzugefügt | Administrator ordnet Phrasen und Rätselwörter bestimmten Kategorien zu | Phrasen und Rätselwörter werden erfolgreich den entsprechenden Kategorien zugeordnet |
 | 4.1  | Einträge in der Highscore-Liste sind vorhanden | Administrator wählt Eintrag aus und löscht ihn | Der ausgewählte Eintrag wird erfolgreich gelöscht |
 | 5.1  | Spieler hat das Spiel gestartet | Spieler gibt seinen Namen ein | Name wird in der Highscore-Liste angezeigt |
-| 6.1  | Spieler hat das Spiel gestartet | Spieler navigiert zur Anzeige des Kontostands und der Lebenspunkte | Aktueller Kontostand und Lebenspunkte werden angezeigt |
+| 6.1  | Spieler hat das Spiel gestartet | Spieler navigiert zur Anzeige des Kontostands | Aktueller Kontostand wird angezeigt. |
+| 7.1  | Spieler hat das Spiel gestartet | Spieler navigiert zur Anzeige der Lebenspunkte | Aktuelle Lebenspunkte werden angezeigt.|
 | 7.1  | Spieler hat eine Frage beantwortet | Spieler gibt Antwort ein | Benachrichtigung, ob die Antwort richtig oder falsch war |
 | 8.1  | Es gibt Einträge in der Highscore-Liste | Spieler navigiert zur Highscore-Liste | Highscore-Liste wird angezeigt, sortiert nach Rang und enthält Rang, Name, Zeitpunkt des Spiels, Ge |
 | 9.1  | Spieler hat bereits einige Rätsel gelöst | Spieler beginnt eine neue Runde | Kein Rätsel-Wort oder keine Phrase wurde dem Spieler bereits gestellt |
