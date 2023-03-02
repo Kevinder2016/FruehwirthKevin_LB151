@@ -37,9 +37,6 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 # 4.1 User Stories
 
-✍️ Formulieren Sie klare Anforderungen in der Form von User Stories (*„als … möchte ich … damit …“*) und zu jeder Anforderung mindestens einen dazugehörigen Testfall (in Kapitel 4.2). 
-
-✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
@@ -57,7 +54,7 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 | 12 | Muss | Funktional | Als Spieler möchte ich eine spielbare Anzahl an Wörtern und Fragen haben, damit das Spiel genug Abwechslung bietet. |
 | 13 | Muss | Funktional | Als Spieler möchte ich die Anzahl der Spielrunden gezählt sehen, damit ich weiß wie oft ich das Spiel gespielt habe. |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
+
 
 # 4.2 Testfälle
 
@@ -77,9 +74,6 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 | 12.1 | Anwendung ist bereit zum Spielen | Spieler beginnt eine neue Runde | Es stehen genügend Rätsel zur Verfügung |
 | 13.1 | Spieler hat mehrere Runden gespielt | Spieler navigiert zur Anzeige der Anzahl der gespielten Runden | Anzahl der gespielten Runden wird angezeigt. |
 
-
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
 
