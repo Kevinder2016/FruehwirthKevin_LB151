@@ -109,11 +109,11 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1 | ja |                                           |
-| 2 | nein |                                           |
-| 3 | nein |                                           |
-| 4 | ja |                                           |
-| 5 | ja |                                           |
+| 1 | ja | AdminLoginBean.java, adminLogin.xhtml |
+| 2 | nein | AdminPhraseBean.java, AdminPhrase.java, phrase.xhtml |
+| 3 | nein | AdminPhraseBean.java, AdminPhrase.java, phrase.xhtml |
+| 4 | ja | adminHome.xhtml, AdminBean.java, Phrase.java |
+| 5 | ja | index.xhtml, GameBean.java |
 | 6 | ja |                                           |
 | 7 | ja |                                           |
 | 8 | ja |                                           |
