@@ -32,7 +32,7 @@ In der Webapplikation soll der Nutzer ein Quiz spielen können, dass dem Quiz au
 
 # 3 Datenbank
 
-Für die Verwendung einer MySQL Datenbank wird JDBC (Java Database Connectivity) in Kombination mit PreparedStatements genutzt. Mit JDBC kann eine Verbindung zur MySQL Datenbank hergestellt werden. PreparedStatements ermöglichen das vorbereitete Ausführen von SQL-Abfragen, wodurch die Ausführung schneller und sicherer wird. Durch die Verwendung von PreparedStatements wird die Gefahr von SQL-Injection-Angriffen minimiert. Die MySQL Datenbank speichert die Daten in Tabellen und man kann durch SQL-Abfragen auf die Daten zugreifen und diese manipulieren. Die Verbindung zur Datenbank wird über eine URL und Anmeldedaten wie Benutzername und Passwort hergestellt. Durch die Nutzung von JDBC und PreparedStatements können Daten sicher in der MySQL Datenbank gespeichert und abgerufen werden.
+Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) in Kombination mit PreparedStatements genutzt. Mit JDBC kann eine Verbindung zur MySQL Datenbank hergestellt werden. PreparedStatements ermöglichen das vorbereitete Ausführen von SQL-Abfragen, wodurch die Ausführung schneller und sicherer wird. Durch die Verwendung von PreparedStatements wird die Gefahr von SQL-Injection-Angriffen minimiert. Die MySQL Datenbank speichert die Daten in Tabellen und man kann durch SQL-Abfragen auf die Daten zugreifen und diese manipulieren. Die Verbindung zur Datenbank wird über eine URL und Anmeldedaten wie Benutzername und Passwort hergestellt. Durch die Nutzung von JDBC und PreparedStatements können Daten sicher in der MySQL Datenbank gespeichert und abgerufen werden.
 
 
 # 4.1 User Stories
