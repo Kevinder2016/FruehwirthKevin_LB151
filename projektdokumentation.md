@@ -125,7 +125,9 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+
+https://user-images.githubusercontent.com/69578309/222451688-c5f04bbe-6e91-48f9-ad53-f174337715c3.mp4
+
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
