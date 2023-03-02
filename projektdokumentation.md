@@ -77,7 +77,6 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 # 5 Prototyp
 
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
 
 ![image](https://user-images.githubusercontent.com/69578309/222433956-ab388f2e-103e-4fab-9c37-ba5ce37ff0f3.png) ![image](https://user-images.githubusercontent.com/69578309/222433256-a5de634e-dc30-4f3a-92c8-c3eb9f3bdd64.png)
 
