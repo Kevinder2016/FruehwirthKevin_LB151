@@ -10,7 +10,7 @@ Frühwirth
 | 17.02.2023 | 0.0.4   | Arbeit an Administrator Login und den Funktionen die zum Admin dazugehören |
 | 27.02.2023 | 0.0.5   | Arbeit am Quiz und wichtigste Quizfunktionalitäten |
 | 01.03.2023 | 0.0.6   | Arbeit an Highscore Liste und weiteren Spielfunktionen |
-| 02.03.2023 | 1.0.0   | Projektdokumentation fertig gemacht, Programm feinschliff|
+| 02.03.2023 | 1.0.0   | Projektdokumentation fertig gemacht, Programm kleine Anpassungen|
 
 # 0 Ihr Projekt
 
@@ -148,10 +148,5 @@ https://user-images.githubusercontent.com/69578309/222451688-c5f04bbe-6e91-48f9-
 
 Fazit: Die Wichtigsten Anforderungen funktionieren, man kann das Spiel als Nutzer Spielen und sich mit anderen oder sich selbst durch die Highscore Liste vergleichen. Jedoch gibt es auch einige kleiner Probleme, für Administratoren fehlen z.B. einige Funktionen wie das Hinzufügen von anderen Kategorien und Rätselwörtern.
 
-# 9 `README.md`
-
-✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
-
-ändere jdk auf 1.8
 
 
