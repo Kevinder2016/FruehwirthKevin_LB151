@@ -138,6 +138,8 @@ Fazit: Die Wichtigsten Anforderungen funktionieren, man kann das Spiel als Nutze
 
 ✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
 
+ändere jdk auf 1.8
+
 # 10 Allgemeines
 
 - [ ] Ich habe die Rechtschreibung überprüft
