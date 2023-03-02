@@ -1,10 +1,10 @@
 # Projekt-Dokumentation
 
-✍️ Frühwirth
+Frühwirth
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|12.01.2023| 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
@@ -14,14 +14,14 @@
 
 # 0 Ihr Projekt
 
-In dieser Webapplikation soll der Nutzer ein Quiz spielen können, dass ähnlich funktioniert wie das Quiz aus der Fernsehserie "Glückspiel", es geht darum Wörter und Sätze für Münzen zu erraten und sich dann mit anderen Spielern in einer Highscore Liste zu messen.
+In dieser Webapplikation soll der Nutzer ein Quiz spielen können, dass ähnlich funktioniert wie das Quiz aus der Fernsehserie "Glückspiel", es geht darum, Wörter und Sätze für Münzen zu erraten und sich dann mit anderen Spielern in einer Highscore Liste zu messen.
 
 # 1 Analyse
 
 * Tier 1 (Presentation): Die Benutzeroberfläche, die das Rätselwort mit der passenden Kategorie, den Kontostand, die verbleibenden Leben, die Highscore-Liste, die Login Seite für den Administrator und die Seite für die Verwaltung von Wörtern anzeigt.
 * Tier 2 (Webserver): empfängt die Anforderungen des Benutzers und leitet sie weiter an tiefere Schichten.
 * Tier 3 (Application Server): beinhaltet die Logik der Anwendung. Ist für das auslesen und schreiben in die Datenbank verantwortlich und überprüft Eingaben serverseitig.
-* Tier 4 (Dataserver): Speichert die Daten des Nutzers für die Highscore-liste(name, coins...), die Login-Daten für den Administrator und weiter Daten die für das Spiel gebraucht werden (z:B: die Wörter)
+* Tier 4 (Dataserver): Speichert die Daten des Nutzers für die Highscore-liste(name, coins...), die Login-Daten für den Administrator und weiter Daten, die für das Spiel gebraucht werden (z:B: die Wörter)
 
 # 2 Technologie
 
