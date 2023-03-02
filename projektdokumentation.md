@@ -91,19 +91,19 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| 1 | 17.02.2023 |              |
-| 2 | 17.02.2023 |              |
-| 3 | 17.02.2023 |              |
-| 4 | 17.02.2023 |              |
-| 5 | 27.02.2023 |              |
-| 6 | 27.02.2023 |              |
-| 7 | 27.02.2023 |              |
-| 8 | 27.02.2023 |              |
-| 9 | 01.02.2023 |              |
-| 10 | 01.03.2023 |              |
-| 11 | 01.03.2023 |              |
-| 12 | 01.03.2023 |              |
-| 13 | 01.03.2023 |              |
+| 1 | 17.02.2023 | Geschafft |
+| 2 | 17.02.2023 | Nicht Geschafft |
+| 3 | 17.02.2023 | Nicht Geschafft |
+| 4 | 17.02.2023 | Geschafft |
+| 5 | 27.02.2023 | Geschafft |
+| 6 | 27.02.2023 | Geschafft |
+| 7 | 27.02.2023 | Geschafft |
+| 8 | 27.02.2023 | Geschafft |
+| 9 | 01.02.2023 | Geschafft |
+| 10 | 01.03.2023 | Geschafft |
+| 11 | 01.03.2023 | Geschafft |
+| 12 | 01.03.2023 | Geschafft |
+| 13 | 01.03.2023 | Geschafft |
 
 # 7 Projektdokumentation
 
