@@ -87,7 +87,6 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 # 6 Implementation
 
-✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
@@ -155,8 +154,4 @@ Fazit: Die Wichtigsten Anforderungen funktionieren, man kann das Spiel als Nutze
 
 ändere jdk auf 1.8
 
-# 10 Allgemeines
 
-- [ ] Ich habe die Rechtschreibung überprüft
-- [ ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
