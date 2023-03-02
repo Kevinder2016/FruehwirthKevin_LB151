@@ -70,12 +70,12 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 | 5.1  | Spieler hat das Spiel gestartet | Spieler gibt seinen Namen ein | Name wird in der Highscore-Liste angezeigt |
 | 6.1  | Spieler hat das Spiel gestartet | Spieler navigiert zur Anzeige des Kontostands | Aktueller Kontostand wird angezeigt. |
 | 7.1  | Spieler hat das Spiel gestartet | Spieler navigiert zur Anzeige der Lebenspunkte | Aktuelle Lebenspunkte werden angezeigt.|
-| 7.1  | Spieler hat eine Frage beantwortet | Spieler gibt Antwort ein | Benachrichtigung, ob die Antwort richtig oder falsch war |
-| 8.1  | Es gibt Einträge in der Highscore-Liste | Spieler navigiert zur Highscore-Liste | Highscore-Liste wird angezeigt, sortiert nach Rang und enthält Rang, Name, Zeitpunkt des Spiels, Ge |
-| 9.1  | Spieler hat bereits einige Rätsel gelöst | Spieler beginnt eine neue Runde | Kein Rätsel-Wort oder keine Phrase wurde dem Spieler bereits gestellt |
-| 10.1 | Spieler hat einen Gewinn erzielt | Spieler wählt die Option, das Spiel zu verlassen und den Gewinn in die Highscore-Liste zu übernehmen | Spiel wird beendet und der Gewinn wird in der Highscore-Liste angezeigt |
-| 11.1 | Anwendung ist bereit zum Spielen | Spieler beginnt eine neue Runde | Es stehen genügend Rätsel zur Verfügung |
-| 12.1 | Spieler hat mehrere Runden gespielt | Spieler navigiert zur Anzeige der Anzahl der gespielten Runden | Anzahl der gespielten Runden wird angezeigt. |
+| 8.1  | Spieler hat eine Frage beantwortet | Spieler gibt Antwort ein | Benachrichtigung, ob die Antwort richtig oder falsch war |
+| 9.1  | Es gibt Einträge in der Highscore-Liste | Spieler navigiert zur Highscore-Liste | Highscore-Liste wird angezeigt, sortiert nach Rang und enthält Rang, Name, Zeitpunkt des Spiels, Ge |
+| 10.1  | Spieler hat bereits einige Rätsel gelöst | Spieler beginnt eine neue Runde | Kein Rätsel-Wort oder keine Phrase wurde dem Spieler bereits gestellt |
+| 11.1 | Spieler hat einen Gewinn erzielt | Spieler wählt die Option, das Spiel zu verlassen und den Gewinn in die Highscore-Liste zu übernehmen | Spiel wird beendet und der Gewinn wird in der Highscore-Liste angezeigt |
+| 12.1 | Anwendung ist bereit zum Spielen | Spieler beginnt eine neue Runde | Es stehen genügend Rätsel zur Verfügung |
+| 13.1 | Spieler hat mehrere Runden gespielt | Spieler navigiert zur Anzeige der Anzahl der gespielten Runden | Anzahl der gespielten Runden wird angezeigt. |
 
 
 
