@@ -14,7 +14,7 @@
 
 # 0 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+In dieser Webapplikation soll der Nutzer ein Quiz spielen können, dass ähnlich funktioniert wie das Quiz aus der Fernsehserie "Glückspiel", es geht darum Wörter und Sätze für Münzen zu erraten und sich dann mit anderen Spielern in einer Highscore Liste zu messen.
 
 # 1 Analyse
 
@@ -25,7 +25,10 @@
 
 # 2 Technologie
 
-Asp.net und MySQL
+* Tier 1 (Presentation): XHTML und CSS
+* Tier 2 (Webserver): JSF
+* Tier 3 (Application Server): JSF
+* Tier 4 (Dataserver): MySQL
 
 # 3 Datenbank
 
