@@ -81,6 +81,9 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 ![image](https://user-images.githubusercontent.com/69578309/222432381-38bc3c08-ff92-4b67-8c37-3e7185a5f476.png)
 
+![image](https://user-images.githubusercontent.com/69578309/222433256-a5de634e-dc30-4f3a-92c8-c3eb9f3bdd64.png)
+
+
 
 # 6 Implementation
 
