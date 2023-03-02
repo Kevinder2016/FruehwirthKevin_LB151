@@ -129,6 +129,8 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 https://user-images.githubusercontent.com/69578309/222451688-c5f04bbe-6e91-48f9-ad53-f174337715c3.mp4
 
 
+
+
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1.1 | 02.03.2023 | OK | Kevin Frühwirth |
