@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <head>
+        <title>Random Game</title>
+    </head>
+    <body>
+        <h1>Glücksrad</h1>
+        
+        
+        <h3>Kategorie: #{gameBean.category}</h3>
+        <h3>Wort: #{gameBean.phrase}</h3>
+        <h3>Leben: #{gameBean.triesLeft}</h3> <!-- Lebensanzeige hinzugefügt -->
+        <h3>Coins: #{gameBean.coins}</h3>
+
+            
+        
+
+        <h:form>
+            <h:commandButton value="Generate Random" action="#{gameBean.generateRandom()}"/>
+        </h:form>
+        <h:form>
+            <br/>
+            <h:outputLabel value="Buchstabe eingeben:" for="letterInput"/>
+            <h:inputText id="letterInput" value="#{gameBean.letterInput}" required="true"/>
+            <h:commandButton value="Raten" action="#{gameBean.guessLetter}" />
+            <br/>
+            <h:outputText value="#{gameBean.isLetterEqualMessage}" />
+        </h:form>
+        
+        <h2>Highscore eintragen:</h2>
+        <h4>Gebe deinen Namen ein:</h4>
+        <h:form>
+            <h:inputText value="#{gameBean.spielername}" required="true"/>
+            </h:form>
+        <br></br>
+        <h:form>
+            <h:commandButton value="Insert Highscore" action="#{gameBean.insertHighscore()}" />
+            <br></br>
+            <h:outputText value="#{gameBean.highscoreMessage}" rendered="#{not empty gameBean.highscoreMessage}" />
+        </h:form>
+
+        <h4>Als Administrator einloggen:</h4>
+        <h:form>
+            <h:commandButton value="zu Adminseite" action="adminLogin.xhtml"/>
+        </h:form>
+        
+    </body>
+</html>

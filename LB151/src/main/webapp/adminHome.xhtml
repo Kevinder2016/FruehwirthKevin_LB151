@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core" >
+    <h:head>
+        <h:outputStylesheet library="css" name="tab.css"  />
+    </h:head>
+
+    <h:body>
+
+        <h1>JDBC Example:</h1>
+        <h:dataTable value="#{adminBean.getHighscoreList()}" var="c"
+             styleClass="order-table"
+             headerClass="order-table-header"
+             rowClasses="order-table-odd-row,order-table-even-row" >
+
+
+            <h:column>
+                <f:facet name="header">
+                    ID
+                </f:facet>
+                <h:outputText value="#{c.id}"/>
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    Spielername
+                </f:facet>
+                #{c.spielername}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    Betrag
+                </f:facet>
+                #{c.betrag}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    Spielrunden
+                </f:facet>
+                #{c.spielrunden}
+            </h:column>
+            
+            <h:column>
+                <f:facet name="header">
+                    Datum
+                </f:facet>
+                #{c.datum}
+            </h:column>
+            
+             <h:column>
+                <f:facet name="header">
+                    Delete
+                </f:facet>
+                <h:form>
+                    <h:commandLink value="Delete" action="#{adminBean.deleteHighscoreEntry(c.id)}">
+                        <f:ajax execute="@form" render="@all"/>
+                    </h:commandLink>
+                </h:form>
+            </h:column>
+
+        </h:dataTable>
+        
+        <h:button value="Zu Phrase" outcome="phrase.xhtml" />
+
+    </h:body>
+
+</html>

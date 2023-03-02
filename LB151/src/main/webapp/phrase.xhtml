@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core" >
+    <h:head>
+        <h:outputStylesheet library="css" name="tab.css"  />
+    </h:head>
+
+    <h:body>
+
+        <h1>JDBC Example:</h1>
+        <h:dataTable value="#{adminPhraseBean.getPhraseList()}" var="c"
+                     styleClass="order-table"
+                     headerClass="order-table-header"
+                     rowClasses="order-table-odd-row,order-table-even-row" >
+
+
+            <h:column>
+                <f:facet name="header">
+                    ID
+                </f:facet>
+                <h:outputText value="#{c.id}"/>
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    Kategorie
+                </f:facet>
+                #{c.name}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    Phrase
+                </f:facet>
+                #{c.phrase}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    Delete
+                </f:facet>
+                <h:form>
+                    <h:commandLink value="Delete" action="#{adminPhraseBean.deletePhraseEntry(c.id)}">
+                        <f:ajax execute="@form" render="@all"/>
+                    </h:commandLink>
+                </h:form>
+            </h:column>
+
+
+
+
+        </h:dataTable>
+
+        <br></br> <br></br>
+
+        <h:form>
+            <h:panelGrid columns="2">
+                <h:outputLabel for="phrase" value="Phrase:" />
+                <h:inputText id="phrase" value="#{adminPhraseBean.phrase}" />
+
+                <h:outputLabel for="category" value="Category:" />
+                <h:inputText id="category" value="#{adminPhraseBean.kategorieId}" />
+            </h:panelGrid>
+        </h:form>
+
+        <h:form>
+             <h:commandButton value="Submit" action="#{adminPhraseBean.addPhrase()}" />
+        </h:form>
+
+    </h:body>
+
+</html>
