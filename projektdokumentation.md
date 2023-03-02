@@ -4,13 +4,13 @@ Frühwirth
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|12.01.2023| 0.0.1   | Für das Projekt wurde eine Beschreibung erstellt, die Technologie und Datenbank ausgewählt und auf Basis der Anforderungen User Stories mit zugehörigen Testfällen definiert, zusätzlich wurden GUI-Prototypen erstellt. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+| 12.01.2023 | 0.0.1   | Für das Projekt wurde eine Beschreibung erstellt, die Technologie und Datenbank ausgewählt und auf Basis der Anforderungen User Stories mit zugehörigen Testfällen definiert, zusätzlich wurden GUI-Prototypen erstellt. |
+| 26.01.2023 | 0.0.2   | Projekt erstellt, Beanklasse erstell, mit Programmieren begonnen |
+| 16.02.2023 | 0.0.3   | Datenbank eingebunden, Testfälle angepasst |
+| 17.02.2023 | 0.0.4   |                                                              |
+| 27.02.2023 | 0.0.5   |                                                              |
+| 01.03.2023 | 0.0.6   |                                                              |
+| 02.03.2023 | 1.0.0   |                                                              |
 
 # 0 Ihr Projekt
 
