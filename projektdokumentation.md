@@ -7,10 +7,10 @@ Frühwirth
 | 12.01.2023 | 0.0.1   | Für das Projekt wurde eine Beschreibung erstellt, die Technologie und Datenbank ausgewählt und auf Basis der Anforderungen User Stories mit zugehörigen Testfällen definiert, zusätzlich wurden GUI-Prototypen erstellt. |
 | 26.01.2023 | 0.0.2   | Projekt erstellt, Beanklasse erstell, mit Programmieren begonnen |
 | 16.02.2023 | 0.0.3   | Datenbank eingebunden, Testfälle angepasst |
-| 17.02.2023 | 0.0.4   |                                                              |
-| 27.02.2023 | 0.0.5   |                                                              |
-| 01.03.2023 | 0.0.6   |                                                              |
-| 02.03.2023 | 1.0.0   |                                                              |
+| 17.02.2023 | 0.0.4   | Arbeit an Administrator Login und den Funktionen die zum Admin dazugehören |
+| 27.02.2023 | 0.0.5   | Arbeit am Quiz und wichtigste Quizfunktionalitäten |
+| 01.03.2023 | 0.0.6   | Arbeit an Highscore Liste und weiteren Spielfunktionen |
+| 02.03.2023 | 1.0.0   | Projektdokumentation fertig gemacht, Programm feinschliff|
 
 # 0 Ihr Projekt
 
