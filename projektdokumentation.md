@@ -102,10 +102,21 @@ Für die Verwendung der MySQL Datenbank wird JDBC (Java Database Connectivity) i
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1.1 | 02.03.2023 | OK | Kevin Frühwirth |
+| 2.2.2 | 02.03.2023 | NOK | Kevin Frühwirth |
+| 3.3.3 | 02.03.2023 | NOK | Kevin Frühwirth |
+| 4.4.4 | 02.03.2023 | OK | Kevin Frühwirth |
+| 5.5.5 | 02.03.2023 | OK | Kevin Frühwirth |
+| 6.6.6 | 02.03.2023 | OK | Kevin Frühwirth |
+| 7.7.7 | 02.03.2023 | OK | Kevin Frühwirth |
+| 8.8.8 | 02.03.2023 | OK | Kevin Frühwirth |
+| 9.9.9 | 02.03.2023 | OK | Kevin Frühwirth |
+| 10.10.10 | 02.03.2023 | OK | Kevin Frühwirth |
+| 11.11.11 | 02.03.2023 | OK | Kevin Frühwirth |
+| 12.12.12 | 02.03.2023 | OK | Kevin Frühwirth |
+| 13.13.13 | 02.03.2023 | OK | Kevin Frühwirth |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fazit: Die Wichtigsten Anforderungen funktionieren, man kann das Spiel als Nutzer Spielen und sich mit anderen oder sich selbst durch die Highscore Liste vergleichen. Jedoch gibt es auch einige kleiner Probleme, für Administratoren fehlen z.B. einige Funktionen wie das Hinzufügen von anderen Kategorien und Rätselwörtern.
 
 # 9 `README.md`
 
