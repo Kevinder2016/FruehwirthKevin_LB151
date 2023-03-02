@@ -22,8 +22,8 @@
 
 * Tier 1 (Presentation): Die Benutzeroberfläche, die dem Spieler das Rätsel, das Glücksrad, den Kontostand, die verbleibenden Leben und die Highscore-Liste anzeigt.
 * Tier 2 (Webserver): Die Schicht, die die Anforderungen des Benutzers empfängt und an die nächste Schicht weiterleitet.
-* Tier 3 (Application Server): Die Schicht, die die Business-Logik und die Verarbeitung der Anwendungsdaten enthält.
-* Tier 4 (Dataserver): Die Schicht, die die Datenbanken enthält, in denen die Daten der Anwendung gespeichert und abgefragt werden.
+* Tier 3 (Application Server): beinhaltet die Logik der Anwendung. Ist für das auslesen und schreiben in die Datenbank verantwortlich und überprüft Eingaben serverseitig.
+* Tier 4 (Dataserver): Speichert die Daten des Nutzers für die Highscore-liste(name, coins...), die Login-Daten für den Administrator und weiter Daten die für das Spiel gebraucht werden (z:B: die Wörter)
 
 # 2 Technologie
 
